@@ -1,9 +1,19 @@
 package cuentas;
+/** 
+ * Clase principal:
+ * @author marta
+ * @version 1.0
+ * @since 10/02/2024
+ */
 public class Main {
 
     public static void main(String[] args) {
         operativa_cuenta(1000);
     }
+    /**
+     * 
+     * @param cantidad No la usamos para nada. Se creo para la tarea
+     */
 
     public static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
