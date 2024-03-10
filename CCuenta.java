@@ -37,7 +37,7 @@ public class CCuenta {
     }
 
     /**
-     * @param saldo the saldo to set
+     * @param saldo el dinero a ingresar
      */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
@@ -86,7 +86,11 @@ public class CCuenta {
             throw new Exception("No se puede ingresar una cantidad negativa");
         setSaldo(getSaldo() + cantidad);
     }
-
+/**
+ * 
+ * @param cantidad el dinero a ingresar
+ * @throws Exception error si la cantidad es menor a 0
+ */
     public void retirar(double cantidad) throws Exception
     {
         if (cantidad <= 0)
